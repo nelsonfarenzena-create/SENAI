@@ -1,4 +1,9 @@
 nome = input("insira seu nome: ")
-numero1 = int(input("insira o primeiro número: "))
-numero2 = int(input("insira o segundo número: "))
-print("o usuario" ,nome," obteve a soma dos valores de :",numero1 + numero2)
+nota1 = float(input("Insira A Primeira Nota: "))
+nota2 = float(input("Insira A Segunda Nota: "))
+media = (nota1 + nota2) /2
+print ("O Usuário" ,nome," Obteve a Média das Notas de :",media)
+if media >= 7:
+    print("O Aluno Está Aprovado")
+else:
+    print("O Aluno Está Reprovado")

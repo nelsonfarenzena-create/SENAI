@@ -1,4 +1,4 @@
-A = 10 #inserir o valor 10 na variavel
-B = 20
-C = A + B
-print("a soma dos dois valores",C)
+nome = input("insira seu nome")
+numero1 = input("insira o primeiro número")
+numero2 = input("insira o segundo número")
+print("o usuario" ,nome," obteve a soma dos valores de :",numero1 + numero2)
